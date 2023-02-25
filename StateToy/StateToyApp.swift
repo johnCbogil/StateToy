@@ -12,7 +12,10 @@ struct StateToyApp: App {
     var body: some Scene {
         WindowGroup {
 //            StateRootView()
-            BindingRootView()
+//            BindingRootView()
+//            ObservableRootView()
+            EnvironmentParentView()
+                .environmentObject(EnvironmentModel())
         }
     }
 }

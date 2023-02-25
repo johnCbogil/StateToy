@@ -16,6 +16,13 @@
 		9430ACE229AAADD100166A75 /* BindingRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430ACE129AAADD100166A75 /* BindingRootView.swift */; };
 		9430ACE729AAAE5600166A75 /* BindingParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430ACE629AAAE5600166A75 /* BindingParentView.swift */; };
 		9430ACE929AAAE9D00166A75 /* BindingChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430ACE829AAAE9D00166A75 /* BindingChildView.swift */; };
+		9430ACEC29AAB7A200166A75 /* ObservableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430ACEB29AAB7A200166A75 /* ObservableModel.swift */; };
+		9430ACEE29AAB7CA00166A75 /* ObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430ACED29AAB7CA00166A75 /* ObservableView.swift */; };
+		9430ACF229AAB94C00166A75 /* ObservableRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430ACF129AAB94C00166A75 /* ObservableRootView.swift */; };
+		9430ACF729AABCE800166A75 /* EnvironmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430ACF629AABCE800166A75 /* EnvironmentModel.swift */; };
+		9430ACF929AABCF100166A75 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430ACF829AABCF100166A75 /* TopView.swift */; };
+		9430ACFB29AABDB000166A75 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430ACFA29AABDB000166A75 /* BottomView.swift */; };
+		9430ACFD29AABDEF00166A75 /* EnvironmentParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430ACFC29AABDEF00166A75 /* EnvironmentParentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +36,13 @@
 		9430ACE129AAADD100166A75 /* BindingRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingRootView.swift; sourceTree = "<group>"; };
 		9430ACE629AAAE5600166A75 /* BindingParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingParentView.swift; sourceTree = "<group>"; };
 		9430ACE829AAAE9D00166A75 /* BindingChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChildView.swift; sourceTree = "<group>"; };
+		9430ACEB29AAB7A200166A75 /* ObservableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableModel.swift; sourceTree = "<group>"; };
+		9430ACED29AAB7CA00166A75 /* ObservableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableView.swift; sourceTree = "<group>"; };
+		9430ACF129AAB94C00166A75 /* ObservableRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableRootView.swift; sourceTree = "<group>"; };
+		9430ACF629AABCE800166A75 /* EnvironmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentModel.swift; sourceTree = "<group>"; };
+		9430ACF829AABCF100166A75 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		9430ACFA29AABDB000166A75 /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		9430ACFC29AABDEF00166A75 /* EnvironmentParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentParentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +78,8 @@
 				9430ACCE29AAAC4900166A75 /* StateToyApp.swift */,
 				9430ACDE29AAAD9600166A75 /* StateExample */,
 				9430ACE329AAADD600166A75 /* BindingExample */,
+				9430ACEA29AAB72E00166A75 /* ObservableExample */,
+				9430ACF529AABC1000166A75 /* EnvironmentExample */,
 				9430ACD229AAAC4900166A75 /* Assets.xcassets */,
 				9430ACD429AAAC4900166A75 /* Preview Content */,
 			);
@@ -96,6 +112,27 @@
 				9430ACE829AAAE9D00166A75 /* BindingChildView.swift */,
 			);
 			path = BindingExample;
+			sourceTree = "<group>";
+		};
+		9430ACEA29AAB72E00166A75 /* ObservableExample */ = {
+			isa = PBXGroup;
+			children = (
+				9430ACF129AAB94C00166A75 /* ObservableRootView.swift */,
+				9430ACEB29AAB7A200166A75 /* ObservableModel.swift */,
+				9430ACED29AAB7CA00166A75 /* ObservableView.swift */,
+			);
+			path = ObservableExample;
+			sourceTree = "<group>";
+		};
+		9430ACF529AABC1000166A75 /* EnvironmentExample */ = {
+			isa = PBXGroup;
+			children = (
+				9430ACF629AABCE800166A75 /* EnvironmentModel.swift */,
+				9430ACFC29AABDEF00166A75 /* EnvironmentParentView.swift */,
+				9430ACF829AABCF100166A75 /* TopView.swift */,
+				9430ACFA29AABDB000166A75 /* BottomView.swift */,
+			);
+			path = EnvironmentExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,13 +205,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9430ACEE29AAB7CA00166A75 /* ObservableView.swift in Sources */,
 				9430ACD129AAAC4900166A75 /* StateParentView.swift in Sources */,
+				9430ACF229AAB94C00166A75 /* ObservableRootView.swift in Sources */,
 				9430ACE929AAAE9D00166A75 /* BindingChildView.swift in Sources */,
+				9430ACF929AABCF100166A75 /* TopView.swift in Sources */,
 				9430ACCF29AAAC4900166A75 /* StateToyApp.swift in Sources */,
+				9430ACF729AABCE800166A75 /* EnvironmentModel.swift in Sources */,
 				9430ACE029AAADAF00166A75 /* StateRootView.swift in Sources */,
+				9430ACFD29AABDEF00166A75 /* EnvironmentParentView.swift in Sources */,
 				9430ACE229AAADD100166A75 /* BindingRootView.swift in Sources */,
+				9430ACFB29AABDB000166A75 /* BottomView.swift in Sources */,
 				9430ACE729AAAE5600166A75 /* BindingParentView.swift in Sources */,
 				9430ACDD29AAAC8E00166A75 /* StateChildView.swift in Sources */,
+				9430ACEC29AAB7A200166A75 /* ObservableModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
