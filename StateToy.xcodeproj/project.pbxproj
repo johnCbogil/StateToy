@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		9430ACCF29AAAC4900166A75 /* StateToyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430ACCE29AAAC4900166A75 /* StateToyApp.swift */; };
-		9430ACD129AAAC4900166A75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430ACD029AAAC4900166A75 /* ContentView.swift */; };
+		9430ACD129AAAC4900166A75 /* StateParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430ACD029AAAC4900166A75 /* StateParentView.swift */; };
 		9430ACD329AAAC4900166A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9430ACD229AAAC4900166A75 /* Assets.xcassets */; };
 		9430ACD629AAAC4900166A75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9430ACD529AAAC4900166A75 /* Preview Assets.xcassets */; };
+		9430ACDD29AAAC8E00166A75 /* StateChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430ACDC29AAAC8E00166A75 /* StateChildView.swift */; };
+		9430ACE029AAADAF00166A75 /* StateRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430ACDF29AAADAF00166A75 /* StateRootView.swift */; };
+		9430ACE229AAADD100166A75 /* BindingRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430ACE129AAADD100166A75 /* BindingRootView.swift */; };
+		9430ACE729AAAE5600166A75 /* BindingParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430ACE629AAAE5600166A75 /* BindingParentView.swift */; };
+		9430ACE929AAAE9D00166A75 /* BindingChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430ACE829AAAE9D00166A75 /* BindingChildView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9430ACCB29AAAC4900166A75 /* StateToy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateToy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9430ACCE29AAAC4900166A75 /* StateToyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateToyApp.swift; sourceTree = "<group>"; };
-		9430ACD029AAAC4900166A75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9430ACD029AAAC4900166A75 /* StateParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateParentView.swift; sourceTree = "<group>"; };
 		9430ACD229AAAC4900166A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9430ACD529AAAC4900166A75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9430ACDC29AAAC8E00166A75 /* StateChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateChildView.swift; sourceTree = "<group>"; };
+		9430ACDF29AAADAF00166A75 /* StateRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateRootView.swift; sourceTree = "<group>"; };
+		9430ACE129AAADD100166A75 /* BindingRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingRootView.swift; sourceTree = "<group>"; };
+		9430ACE629AAAE5600166A75 /* BindingParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingParentView.swift; sourceTree = "<group>"; };
+		9430ACE829AAAE9D00166A75 /* BindingChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChildView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				9430ACCE29AAAC4900166A75 /* StateToyApp.swift */,
-				9430ACD029AAAC4900166A75 /* ContentView.swift */,
+				9430ACDE29AAAD9600166A75 /* StateExample */,
+				9430ACE329AAADD600166A75 /* BindingExample */,
 				9430ACD229AAAC4900166A75 /* Assets.xcassets */,
 				9430ACD429AAAC4900166A75 /* Preview Content */,
 			);
@@ -65,6 +76,26 @@
 				9430ACD529AAAC4900166A75 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9430ACDE29AAAD9600166A75 /* StateExample */ = {
+			isa = PBXGroup;
+			children = (
+				9430ACDF29AAADAF00166A75 /* StateRootView.swift */,
+				9430ACD029AAAC4900166A75 /* StateParentView.swift */,
+				9430ACDC29AAAC8E00166A75 /* StateChildView.swift */,
+			);
+			path = StateExample;
+			sourceTree = "<group>";
+		};
+		9430ACE329AAADD600166A75 /* BindingExample */ = {
+			isa = PBXGroup;
+			children = (
+				9430ACE129AAADD100166A75 /* BindingRootView.swift */,
+				9430ACE629AAAE5600166A75 /* BindingParentView.swift */,
+				9430ACE829AAAE9D00166A75 /* BindingChildView.swift */,
+			);
+			path = BindingExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9430ACD129AAAC4900166A75 /* ContentView.swift in Sources */,
+				9430ACD129AAAC4900166A75 /* StateParentView.swift in Sources */,
+				9430ACE929AAAE9D00166A75 /* BindingChildView.swift in Sources */,
 				9430ACCF29AAAC4900166A75 /* StateToyApp.swift in Sources */,
+				9430ACE029AAADAF00166A75 /* StateRootView.swift in Sources */,
+				9430ACE229AAADD100166A75 /* BindingRootView.swift in Sources */,
+				9430ACE729AAAE5600166A75 /* BindingParentView.swift in Sources */,
+				9430ACDD29AAAC8E00166A75 /* StateChildView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

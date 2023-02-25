@@ -11,7 +11,8 @@ import SwiftUI
 struct StateToyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            StateRootView()
+            BindingRootView()
         }
     }
 }
